@@ -1,0 +1,16 @@
+{
+  "fmt": {
+    "options": {
+      "indentWidth": 4,
+      "proseWrap": "preserve",
+      "useTabs": false,
+      "singleQuote": true
+    }
+  },
+  "tasks": {
+    "dev": "deno run --watch --allow-write --allow-net ./main.ts",
+    "clean": "deno run --allow-write --allow-read ./main.ts --clean",
+    "html": "deno run --allow-write --allow-net ./main.ts --html",
+    "start": "deno run --allow-write --allow-net ./main.ts"
+  }
+}
